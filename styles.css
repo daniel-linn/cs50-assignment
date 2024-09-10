@@ -1,0 +1,136 @@
+  .container{
+    text-align: center;
+    margin-top: 45vh;
+}
+
+
+  .direct {
+    margin-top: 20px; /* Adds space above the element */
+    padding-bottom: 20px; /* Adds space inside the element at the bottom */
+    text-align: center;
+  }
+
+  footer {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+
+  }
+
+  .hero-banner {
+    background-image: url('https://supreme-waffle-7vrjxg6vxg993rxgp-8080.app.github.dev/pictures%20for%20homepage/ruifang.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Full viewport height */
+    color: white; /* Text color */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .hero-banner h1 {
+    margin-bottom: 20px; /* Adjust the value as needed */
+  }
+
+  .hero-banner h3 {
+    margin-top: 20px; /* Adjust the value as needed */
+  }
+
+  .am_content {
+    text-align: left;
+  }
+
+  .hero-banner h1,
+  .hero-banner p,
+  .hero-banner h3 {
+  display: block;
+  margin: 0;
+}
+
+  .hero-banner-home {
+  background-image: url('https://supreme-waffle-7vrjxg6vxg993rxgp-8080.app.github.dev/pictures%20for%20homepage/qingshui.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh; /* Full viewport height */
+  color: white; /* Text color */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+  .hero-banner-hobb {
+  background-image: url('https://supreme-waffle-7vrjxg6vxg993rxgp-8080.app.github.dev/pictures%20for%20homepage/Kyudo.jpeg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh; /* Full viewport height */
+  color: white; /* Text color */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: relative;
+  z-index: 0;
+}
+
+.hero-banner-hobb::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+.hero-banner-hobb h1,
+.hero-banner-hobb h3,
+.hero-banner-hobb div {
+  position: relative;
+  z-index: 2;
+}
+
+div.accordion {
+  width: 50%; /* Adjust the width as needed */
+  padding: 10px; /* Adjust padding as needed */
+  margin: 0 auto;
+}
+
+.hero-banner-quiz {
+  background-image: url('https://supreme-waffle-7vrjxg6vxg993rxgp-8080.app.github.dev/pictures%20for%20homepage/101.jpeg');
+  background-size: contain;
+  background-position: center;
+  height: 100vh; /* Full viewport height */
+  color: white; /* Text color */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero-banner-quiz::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+.hero-banner-quiz h1,
+.hero-banner-quiz h3,
+.hero-banner-quiz .quiz,
+.hero-banner-quiz div {
+  position: relative;
+  z-index: 2;
+}
+

@@ -1,0 +1,5 @@
+tags and css:
+<h1>, <h2>, <h3>, <footer>, <a>, <div>, <button>, <br>, <strong>, <input>
+text-align, position, background-image, margin-bottom, color
+
+Try to make some interative for the homepage, so i chose the accodrion and the check answer function.
